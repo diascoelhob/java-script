@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 14</title>
+    <link rel="stylesheet" href="estilos/style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+    <main>
+        <section id="perguntas">
+            <div>
+                <label for="idinicio">Início:</label>
+                <input type="number" name="inicio" id="idinicio">
+            </div>
+
+            <div>
+                <label for="idfim">Fim:</label>
+                <input type="number" name="fim" id="idfim">
+            </div>
+
+            <div>
+                <label for="idpasso">Passo:</label>
+                <input type="number" name="passo" id="idpasso">
+            </div>
+
+            <input type="button" value="Contar" onclick="contando()">
+        </section>
+        <section id="resultados">
+            <h2>Aguardando dados...</h2>
+        </section>
+    </main>
+    <script src="scripts/contando.js"></script>
+</body>
+</html>
