@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+
+}
+
+body {
+    color: white;
+    background-color: rgb(52, 151, 212);
+}
+
+header {
+    text-align: center;
+    margin: 35px;
+    text-shadow: 2px 2px 2px black;
+}
+
+main {
+    color: black;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+section {
+    padding: 10px;
+}
+
+input#num {
+    width: 50px;
+}
+
+select#saida {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+}
+
+input#finalizar {
+    margin-top: 10px;
+    margin-left: 20px;
+}
