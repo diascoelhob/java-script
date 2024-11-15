@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif, monospace;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(71, 162, 193);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
