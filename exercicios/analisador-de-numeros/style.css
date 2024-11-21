@@ -14,8 +14,23 @@ body {
 h1 {
     color: white;
     text-align: center;
+    margin-top: 20px;
 }
 
 main {
     background-color: white;
+    margin: auto;
+    max-width: 460px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+select#saida {
+    display: block;
+    width: 120px;
+    height: 200px;
+    border: 1px solid rgb(118, 118, 118);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
